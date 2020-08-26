@@ -1,0 +1,113 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-div{
+    width: 100%;
+    height: 700px;
+    background-color: #f0f2f5;
+  padding-top: 150px;
+}
+.showcase h2{
+    margin-top: 0;
+    padding-left: 25px;
+   position: absolute;
+    font-weight: 499;
+    font-size: 27px;
+    top: 120px;
+}
+
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    grid-gap: 40px;
+    
+}
+
+.logo{
+
+    width:65%;
+}
+
+.showcase{
+    position: relative;
+width: 490px;
+align-items: center;
+padding: 20px 0 0 0px;
+}
+.loginform{
+  text-align: center;
+    padding: 15px 20px 0 15px;
+background-color: #fff;
+width: 100%;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.loginform input{
+    width: 94%;
+   font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    padding: 15px 
+    
+}
+
+.loginform input:focus{
+    outline: none;
+}
+.loginform input::placeholder{
+    opacity: 0.8;
+}
+.loginform input:focus::placeholder{
+    opacity: 0.5;
+   
+}
+.form button{
+    width: 102%;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.loginform a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size:14px;
+    font-weight: 500;
+    
+}
+.form{
+    padding-bottom: 18px;
+    border-bottom: 1px solid #dddfe2;
+}
+.create{
+    padding:25px;
+    text-align: center;
+}
+.create button{
+    padding: 15px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+   
+    color: #fff;
+    cursor: pointer;
+    font-weight: 510;
+    background-color: #42b72a;
+}
+
+span{
+    font-weight: 700;
+}
